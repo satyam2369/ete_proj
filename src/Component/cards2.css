@@ -1,0 +1,52 @@
+ .cards2{
+    color: rgb(255, 255, 255);
+
+    
+    background-color: rgb(0, 0, 0);
+    height: 45vh;
+    width: 40vw;
+    padding: 15px;
+    margin-top: -15vh;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 20vw; */
+    box-shadow: 0px 0px 8px #000000;
+     transition: ease-in-out 300ms;
+     overflow: hidden;
+  position: relative;
+  margin-left: 0vw;
+} 
+
+.cards2:hover{
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px #000000;
+    width: 40vw;
+    
+} 
+/* .cards2::after{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/162/894/557/colorful-neon-computer-keyboards-wallpaper-preview.jpg");
+} */
+.background{
+    opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40vw;
+  height: 45vh;
+  z-index: 2;
+  
+}
+.cards2 h3{
+    z-index: 4;
+    position: relative;
+}
+.cards2 p{
+    z-index: 4;
+    position: relative;
+}
+.cards2 button{
+    z-index: 4;
+    opacity: 100%;
+    position: relative;
+}
+

@@ -1,0 +1,21 @@
+.bottom{
+    background-color: rgba(52, 214, 236, 0.47);
+    height: 45vh;
+    margin-top: -30vh;
+    z-index: -1;
+    position: relative;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.cards{
+    display: flex;
+    margin-left: 20vw;
+    
+}
+.card2{
+    margin-left: 4vw;
+    
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
